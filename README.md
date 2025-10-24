@@ -83,11 +83,20 @@ Overall, the data model captures and connects all the core operations of the res
 
 Query 1 allows managers to quicky look at overall customer satisfaction with the restaurant. Higher ratings mean that customers are happy with the food and service while a lower rating shows that the restaurant needs improvements. Tracking the average rating helps managers make changes to the restaurant in order to improve customer experience. 
 
-
 2. Query 2 lists all tables in the restaurant with their location and the total number of reservations each table has received. It is then grouped by table and ordered in descending order by total reservations. 
 
 <img width="468" height="135" alt="query2" src="https://github.com/user-attachments/assets/2b606950-4e4e-4675-9902-d90312dc249c" />
 
-
 This query helps managers see which tables are most popular with customers. The tables with most reservations may need more staff attention to ensure a better customer experience. Understanding table popularity helps managers to make plans to further optimize seating and staffing for a particular table during peak hours. It is listed in descending order to make it easy to identify the most frequent tables being used. 
 
+3. Query 3 summarizes menu item performance by showing the amount of times menu items were ordered and the total revenue that is associated with each item. The query joins OrderDetails and MenuItems to connect the ordered line items with their corresponding name and price.
+
+<img width="1240" height="450" alt="Screenshot 2025-10-24 at 2 16 00 PM" src="https://github.com/user-attachments/assets/1accf4c4-5fec-44fe-93ee-cbdea7e01ac4" />
+
+This output helps the restaurant management figure out which dishes are the top earners, and which items do not sell as well. From this, the high-revenue items can be more heavily pushed as well as making sure ingredients required for those menu items are frequently stocked. This query also helps overall with management being able to make data driven decisions about menu items and restocks. 
+
+4. Query 4 reports employee first/last name which in our case we gave them employee numbers as well as their role. It also shows the number of shifts each employee has. It joins employee and shifts tables to be able to record the individual shifts while linking them back to each employee.
+
+<img width="1245" height="493" alt="Screenshot 2025-10-24 at 2 17 01 PM" src="https://github.com/user-attachments/assets/9a437a9f-ff3b-408f-9faa-af30c36a6a73" />
+
+This output helps managers see which employees have certain numbers of shifts compared to others as well as which ones may not have shifts at all depending on a certain period of time. This is useful when it comes to balancing employee workloads and creating schedules. It can also help in finding out which roles are being scheduled, and which are not to try and make better staffing decisions.  
