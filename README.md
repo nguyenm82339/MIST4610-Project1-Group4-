@@ -102,3 +102,16 @@ This output helps the restaurant management figure out which dishes are the top 
 <img width="699" height="464" alt="Screenshot 2025-10-25 at 4 27 53 PM" src="https://github.com/user-attachments/assets/9fae9d2d-13fb-434c-a3b5-bd0f3e5b6b61" />
 
 This output helps managers see which employees have certain numbers of shifts compared to others as well as which ones may not have shifts at all depending on a certain period of time. This is useful when it comes to balancing employee workloads and creating schedules. It can also help in finding out which roles are being scheduled, and which are not to try and make better staffing decisions.  
+
+5. Query 5 finds menu items whose names contain the letter "a" and whose price is above the restaurant's average menu item price. The query uses a subquery to calculate the overall average price and a REGEXP filter to match item names containing "a" or "A."
+   
+<img width="720" height="388" alt="image" src="https://github.com/user-attachments/assets/7fbdbbb5-f0bd-4fe5-8f2f-9a659675b360" />
+
+This query allows restaurant management to quickly identify premium-priced dishes within popular naming patterns. By isolating these items, managers can evaluate whether the pricing aligns with demand and customer perception. 
+
+6. Query 6 identifies all tables that do not have any reservations on a particular date. It joins the Tables and Reservations data logically through a NOT EXISTS clause, checking which tables have no entries for the specified day.
+
+<img width="1106" height="512" alt="image" src="https://github.com/user-attachments/assets/958bce75-9131-44d0-ab07-4c99a33d70cd" />
+
+This output helps restaurant managers easily see which tables are unbooked on a given day. Knowing table availability in advance supports floor planning, scheduling, and walk-in management. During busy periods, it ensures that the team can quickly identify open seating. During slow days, it provides insight into underutilized areas that could be reconfigured to increase reservations. 
+
