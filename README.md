@@ -76,6 +76,8 @@ Overall, the data model captures and connects all the core operations of the res
 
 ## Queries:
 
+<img width="722" height="456" alt="Screenshot 2025-10-25 at 6 31 53 PM" src="https://github.com/user-attachments/assets/693071a7-988a-4e7b-bb97-acbef95523c1" />
+
 
 1. Query 1 calculates the overall average rating given by customers for the restaurant. The output of AvgRating represents the average rating across all feedback in the Feedback table. 
 
@@ -114,4 +116,32 @@ This query allows restaurant management to quickly identify premium-priced dishe
 <img width="1106" height="512" alt="image" src="https://github.com/user-attachments/assets/958bce75-9131-44d0-ab07-4c99a33d70cd" />
 
 This output helps restaurant managers easily see which tables are unbooked on a given day. Knowing table availability in advance supports floor planning, scheduling, and walk-in management. During busy periods, it ensures that the team can quickly identify open seating. During slow days, it provides insight into underutilized areas that could be reconfigured to increase reservations. 
+
+7. Query 7 This query calculates the average feedback rating for each employee and shows those with ratings above 4.0 
+
+<img width="859" height="326" alt="Screenshot 2025-10-25 at 5 53 09 PM" src="https://github.com/user-attachments/assets/46cd4163-d938-4dde-9a7f-faa0ed0917a3" />
+
+Managers can recognize employees that provide good service. This helps in rewarding employees with top performance and maintaining high customer satisfaction. 
+
+8. Query 8: This query lists suppliers and counts how many inventory items are for each supply. 
+
+<img width="1165" height="311" alt="Screenshot 2025-10-25 at 5 54 55 PM" src="https://github.com/user-attachments/assets/3c074f79-5109-48df-9759-eafe1c7c6cdd" />
+
+Managers of the restaurant can identify which suppliers provide most items. Managers can use this information to prioritize other suppliers if they have high volumes of supply. 
+
+9. Query 9: Query 9 calculates the average salary for each employee in the restaurant. It groups employees by role and calculates the average salary. The results are sorted from the highest to lowest average salary in descending order. 
+
+<img width="563" height="278" alt="Screenshot 2025-10-25 at 6 03 48 PM" src="https://github.com/user-attachments/assets/7a1493ae-3850-4877-ae8b-9c68fc73354d" />
+
+This query can be useful to see the average pay for each job. It makes sures employees are paid fairly.  
+
+10. Query 10: This counts how many menu items exist in each category in the restaurant.
+
+<img width="564" height="271" alt="Screenshot 2025-10-25 at 6 15 28 PM" src="https://github.com/user-attachments/assets/114a2924-365e-4325-8bcf-17dc689f500a" />
+
+Managers can see the different items in each category and make changes to the menu by introducing new items or removing them. 
+
+
+
+
 
