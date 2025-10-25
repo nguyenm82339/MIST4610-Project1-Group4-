@@ -98,7 +98,7 @@ This query helps managers see which tables are most popular with customers. The 
 
 This output helps the restaurant management figure out which dishes are the top earners, and which items do not sell as well. From this, the high-revenue items can be more heavily pushed as well as making sure ingredients required for those menu items are frequently stocked. This query also helps overall with management being able to make data driven decisions about menu items and restocks. 
 
-4. Query 4 reports employee first/last name which in our case we gave them employee numbers as well as their role. It also shows the number of shifts each employee has. It joins employee and shifts tables to be able to record the individual shifts while linking them back to each employee.
+4. Query 4 reports employee first/last name as well as their role. It also shows the number of shifts each employee has. It joins employee and shifts tables to be able to record the individual shifts while linking them back to each employee.
 
 
 <img width="699" height="464" alt="Screenshot 2025-10-25 at 4 27 53 PM" src="https://github.com/user-attachments/assets/9fae9d2d-13fb-434c-a3b5-bd0f3e5b6b61" />
