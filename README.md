@@ -7,10 +7,10 @@
 
 ## Team Members:
 
-1. Smit Shah
-2. Nicholas Nichols 
-3. Martin Nguyen 
-4. Riley Collman
+1. Smit Shah [@smit9shah](https://github.com/smit9shah)
+2. Nicholas Nichols [@nnichols915](https://github.com/nnichols915)
+3. Martin Nguyen [@nguyenm82339](https://github.com/nguyenm82339)
+4. Riley Collman [@rcollman44](https://github.com/rcollman44)
 5. Sidd Navar
 
 
