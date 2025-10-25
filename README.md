@@ -11,7 +11,7 @@
 2. Nicholas Nichols [@nnichols915](https://github.com/nnichols915)
 3. Martin Nguyen [@nguyenm82339](https://github.com/nguyenm82339)
 4. Riley Collman [@rcollman44](https://github.com/rcollman44)
-5. Sidd Navar
+5. Sidd Navar [sn18206-oss](https://github.com/sn18206-oss)
 
 
 ## Scenario Description:
