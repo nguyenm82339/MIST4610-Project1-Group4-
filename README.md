@@ -91,12 +91,14 @@ This query helps managers see which tables are most popular with customers. The 
 
 3. Query 3 summarizes menu item performance by showing the amount of times menu items were ordered and the total revenue that is associated with each item. The query joins OrderDetails and MenuItems to connect the ordered line items with their corresponding name and price.
 
-<img width="1240" height="450" alt="Screenshot 2025-10-24 at 2 16 00 PM" src="https://github.com/user-attachments/assets/1accf4c4-5fec-44fe-93ee-cbdea7e01ac4" />
+<img width="697" height="438" alt="Screenshot 2025-10-25 at 4 27 06 PM" src="https://github.com/user-attachments/assets/d61a4a7b-b125-40bb-85c4-b48ab9c70c74" />
+
 
 This output helps the restaurant management figure out which dishes are the top earners, and which items do not sell as well. From this, the high-revenue items can be more heavily pushed as well as making sure ingredients required for those menu items are frequently stocked. This query also helps overall with management being able to make data driven decisions about menu items and restocks. 
 
 4. Query 4 reports employee first/last name which in our case we gave them employee numbers as well as their role. It also shows the number of shifts each employee has. It joins employee and shifts tables to be able to record the individual shifts while linking them back to each employee.
 
-<img width="1245" height="493" alt="Screenshot 2025-10-24 at 2 17 01 PM" src="https://github.com/user-attachments/assets/9a437a9f-ff3b-408f-9faa-af30c36a6a73" />
+
+<img width="699" height="464" alt="Screenshot 2025-10-25 at 4 27 53 PM" src="https://github.com/user-attachments/assets/9fae9d2d-13fb-434c-a3b5-bd0f3e5b6b61" />
 
 This output helps managers see which employees have certain numbers of shifts compared to others as well as which ones may not have shifts at all depending on a certain period of time. This is useful when it comes to balancing employee workloads and creating schedules. It can also help in finding out which roles are being scheduled, and which are not to try and make better staffing decisions.  
